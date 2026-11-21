@@ -1,0 +1,187 @@
+[
+  {
+    "_id": 1001,
+    "guest": {
+      "guestId": 1,
+      "firstName": "Mary",
+      "lastName": "Ndubuisi",
+      "email": "maryamaka@gmail.com",
+      "phone": "08101020304",
+      "address": "Dolphine Estate, Lagos"
+    },
+    "room": {
+      "roomId": 101,
+      "roomNumber": "101",
+      "roomType": "Standard",
+      "pricePerNight": 35000
+    },
+    "reservation": {
+      "checkInDate": "2026-11-20",
+      "checkOutDate": "2026-11-22",
+      "status": "Confirmed"
+    },
+    "payment": {
+      "amount": 70000,
+      "paymentMethod": "Card",
+      "paymentDate": "2026-11-18"
+    },
+    "checkInOut": {
+      "actualCheckIn": "2026-11-20 14:00:00",
+      "actualCheckOut": "2026-11-22 08:00:00"
+    },
+    "serviceRequests": [
+      {
+        "serviceType": "Laundry",
+        "requestDate": "2026-11-20",
+        "status": "Completed"
+      },
+      {
+        "serviceType": "Room Service",
+        "requestDate": "2026-11-21",
+        "status": "Completed"
+      }
+    ]
+  },
+  {
+    "_id": 1002,
+    "guest": {
+      "guestId": 2,
+      "firstName": "Ibikunle",
+      "lastName": "Adebayo",
+      "email": "kunleade299@gmail.com",
+      "phone": "09088237644",
+      "address": "Crown Estate, Lagos"
+    },
+    "room": {
+      "roomId": 212,
+      "roomNumber": "212",
+      "roomType": "Deluxe",
+      "pricePerNight": 55000
+    },
+    "reservation": {
+      "checkInDate": "2026-11-25",
+      "checkOutDate": "2026-11-28",
+      "status": "Confirmed"
+    },
+    "payment": {
+      "amount": 165000,
+      "paymentMethod": "Transfer",
+      "paymentDate": "2026-11-22"
+    },
+    "checkInOut": {
+      "actualCheckIn": "",
+      "actualCheckOut": ""
+    },
+    "serviceRequests": [
+      {
+        "serviceType": "Airport Pickup",
+        "requestDate": "2026-11-25",
+        "status": "Pending"
+      }
+    ]
+  },
+  {
+    "_id": 1003,
+    "guest": {
+      "guestId": 3,
+      "firstName": "Darasimi",
+      "lastName": "Willoughby",
+      "email": "bosswills@yahoo.com",
+      "phone": "07054265983",
+      "address": "Diamond Estate, Ondo"
+    },
+    "room": {
+      "roomId": 305,
+      "roomNumber": "305",
+      "roomType": "Executive Suite",
+      "pricePerNight": 85000
+    },
+    "reservation": {
+      "checkInDate": "2026-12-01",
+      "checkOutDate": "2026-12-05",
+      "status": "Confirmed"
+    },
+    "payment": {
+      "amount": 340000,
+      "paymentMethod": "Card",
+      "paymentDate": "2026-11-28"
+    },
+    "checkInOut": {
+      "actualCheckIn": "",
+      "actualCheckOut": ""
+    },
+    "serviceRequests": [
+      {
+        "serviceType": "Spa Service",
+        "requestDate": "2026-12-02",
+        "status": "Pending"
+      },
+    ]
+  },
+  {
+    "_id": 1004,
+    "guest": {
+      "guestId": 4,
+      "firstName": "Oyin",
+      "lastName": "Akintuyi",
+      "email": "oyin.akintuyi@gmail.com",
+      "phone": "08147496468",
+      "address": "River Park Estate, Abuja"
+    },
+    "room": {
+      "roomId": 105,
+      "roomNumber": "105",
+      "roomType": "Standard",
+      "pricePerNight": 35000
+    },
+    "reservation": {
+      "checkInDate": "2026-11-22",
+      "checkOutDate": "2026-11-24",
+      "status": "Pending"
+    },
+    "payment": {
+      "amount": 70000,
+      "paymentMethod": "Cash",
+      "paymentDate": "2026-11-20"
+    },
+    "checkInOut": {
+      "actualCheckIn": "",
+      "actualCheckOut": ""
+    },
+    "serviceRequests": [
+    ]
+  },
+  {
+    "_id": 1005,
+    "guest": {
+      "guestId": 5,
+      "firstName": "Charles",
+      "lastName": "Okeke",
+      "email": "okekscharlie@yahoo.com",
+      "phone": "08068791066",
+      "address": "Rivtaf Golf Estate, Port Harcourt"
+    },
+    "room": {
+      "roomId": 409,
+      "roomNumber": "409",
+      "roomType": "Presidential Suite",
+      "pricePerNight": 150000
+    },
+    "reservation": {
+      "checkInDate": "2026-12-10",
+      "checkOutDate": "2026-12-15",
+      "status": "Confirmed"
+    },
+    "payment": {
+      "amount": 750000,
+      "paymentMethod": "Transfer",
+      "paymentDate": "2026-12-05"
+    },
+    "checkInOut": {
+      "actualCheckIn": "",
+      "actualCheckOut": ""
+    },
+    "serviceRequests": [
+    ]
+  }
+]
